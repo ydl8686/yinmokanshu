@@ -1,0 +1,8 @@
+<view class="container" >
+  <view class="bookcard" wx:for="{{WeeklyBookLists}}">
+    <image src="{{item.imagePath}}" style="width:300rpx;height:440rpx"
+      bindtap="f1" data-book-id="{{item.id}}"></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>
+

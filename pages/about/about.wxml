@@ -1,0 +1,7 @@
+<view class="container" style="background:url('/images/bg.jpg')">
+  <image src="/images/cat.jpg" class='about-banner'></image>
+  <text style="font-weight:bold;font-size:60rpx">殷陌看书</text>
+  <view>
+  <navigator url="/pages/weekly/weekly" style="display:inline" open-type="switchTab" hover-class="nav-hover" class="nav-default">每周推荐</navigator><text>三本好书</text>
+  </view>
+</view>

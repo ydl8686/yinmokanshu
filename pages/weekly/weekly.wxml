@@ -1,0 +1,18 @@
+<view class="container" >
+  <swiper indicator-dots="{{true}}" class="bookswiper">
+    <swiper-item class="bookcard" wx:for="{{WeeklyBookList}}" data-user-name="blabla" 
+    >
+      <image src="{{item.imagePath}}" style="width:400rpx;height:580rpx"
+      bindtap="f1" data-book-id="{{item.id}}"></image>
+      
+      <!-- <text>第</text>{{index+1}}<text>周推荐</text> -->
+      
+      <text bindtap="f1" data-book-id="{{item.id}}">{{item.name}}</text>
+      
+      <text>点评：{{item.comment}}</text>
+      
+      <!-- <text wx:if="{{item.isHighlyRecommended}}" style="font-size:16px;color:red;">强烈推荐</text> -->
+    </swiper-item>
+  </swiper>
+</view>
+

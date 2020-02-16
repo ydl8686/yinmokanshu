@@ -1,0 +1,19 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+  <image src="{{book.images.small}}" style="width:400rpx;height:580rpx"></image>
+  <text>\n</text>
+  <!-- <text>{{book.title}}</text> -->
+  <view class="tagscontainer">
+  <view class="tags" wx:for="{{book.tags}}">
+  <text>{{item.name}} </text>
+  </view>
+  </view>
+  <text style="color:red;font-size:36rpx">\n评分：{{book.rating.average}}\n\n</text>
+
+  <text style="font-weight:bold;font-size:46rpx;color:red">作者介绍       ······\n</text>
+  <view class="authorintro"><text>{{book.author_intro}}\n</text></view>
+  <text>\n</text>
+  <text style="font-weight:bold;font-size:46rpx;color:red">简介 ······</text>
+  <view class="authorintro"><text>{{book.summary}}\n</text></view>
+  <text>\n</text>
+</view>

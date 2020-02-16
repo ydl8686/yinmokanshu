@@ -1,0 +1,31 @@
+/* pages/detail/detail.wxss */
+.container{
+  /* background-color: #fff; */
+  /* height: 100vh; */
+  /* display: flex; */
+  flex-direction: column;
+  justify-content:space-around;
+  /* align-items: center; */
+  text-align: center
+}
+
+
+.authorintro{
+  border: dashed gray;
+  border-radius: 2%;
+  background-color: #fff;
+  /* width: 700rpx; */
+  text-align: left;
+  margin-left: 40rpx;
+  margin-right: 40rpx
+}
+.tags{
+  
+  background-color: lightblue;
+  display: inline;
+}
+.tagscontainer{
+  width: 680rpx;
+  margin-right: 40rpx;
+  margin-left: 40rpx;
+}

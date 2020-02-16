@@ -1,0 +1,15 @@
+/* pages/history/history.wxss */
+.container{
+  
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+.bookcard{
+  display: flex;
+  flex-direction:column;
+  margin-right: 20rpx;
+  margin-left: 30rpx;
+  text-align: center
+}

@@ -1,0 +1,14 @@
+.bookcard{
+  background-color: #fff;
+  height: 100vh;
+  width: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  text-align: center
+}
+
+.bookswiper{
+  height: 98vh;
+}
